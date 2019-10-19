@@ -21,8 +21,9 @@ public class Treangle extends AbstractClass {
     public void setTreangleSideOne(double treangleSideOne) {
         this.treangleSideOne = treangleSideOne;
     }
-    public double getArea(){
-        double treangleArea = (heightSide*treangleSideOne)/2;
-        return treangleArea;
+@Override
+    public double getArea() {
+        return (heightSide * treangleSideOne) / 2;
+
     }
 }

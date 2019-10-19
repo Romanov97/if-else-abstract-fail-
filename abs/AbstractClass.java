@@ -1,4 +1,5 @@
 package abs;
 
-public abstract  class AbstractClass implements Share {
+public abstract class AbstractClass implements Shape {
+
 }

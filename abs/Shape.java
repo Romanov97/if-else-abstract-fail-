@@ -1,6 +1,6 @@
 package abs;
 
-public interface Share {
+public interface Shape {
     double getArea();
 
 }

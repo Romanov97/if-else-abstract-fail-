@@ -3,7 +3,7 @@ package circle;
 import abs.AbstractClass;
 
 public class Circle extends AbstractClass {
-   private double radius;
+    private double radius;
 
     public double getRadius() {
         return radius;
@@ -15,8 +15,7 @@ public class Circle extends AbstractClass {
 
     @Override
     public double getArea() {
-        double getAreaCircle = Math.PI*(radius * radius);
-        return getAreaCircle;
+        return Math.PI * (radius * radius);
     }
 
 

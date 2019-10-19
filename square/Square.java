@@ -3,7 +3,7 @@ package square;
 import abs.AbstractClass;
 
 public class Square extends AbstractClass {
-private double sideSquare;
+    private double sideSquare;
 
     public double getSideSquare() {
         return sideSquare;
@@ -15,7 +15,7 @@ private double sideSquare;
 
     @Override
     public double getArea() {
-        double squareArea = sideSquare * sideSquare;
-        return squareArea;
+        return sideSquare * sideSquare;
+
     }
 }
